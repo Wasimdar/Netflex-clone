@@ -1,0 +1,60 @@
+
+
+.header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    width: inherit;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: auto;
+    position: relative;
+
+}
+h1{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: block;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+.header-link{
+    width: px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    padding: 1px;
+    width: 200px;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 0);
+
+
+}
+select{
+    background: transparent;
+    width: 400px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.header-link button{
+    background: rgb(233, 41, 41);
+    color: aliceblue;
+    font-weight: bold;
+    width: 400px;
+    margin-left: 10px;
+    height: 40px;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+
+}

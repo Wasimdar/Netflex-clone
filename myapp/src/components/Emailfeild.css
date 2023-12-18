@@ -1,0 +1,71 @@
+.email-feild{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 12%;
+    margin-top: 300px;
+}
+.email-feild input{
+    margin: 10px;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: 200px;
+    height: 60px;
+    background-clip: padding-box;
+    border: 2 solid transparent;
+    color: inherit;
+    font: inherit;
+    min-width: 15px;
+    min-height: 15px;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+    text-transform: inherit;
+    background-color: transparent;
+}
+.email-feild input:focus{
+    background: #fff;
+    border: #fff;
+    
+}
+
+.email-feild button{
+    appearance: none;
+    font-style: inherit;
+    font-variant: inherit;
+    font-stretch: inherit;
+    font-family: inherit;
+    font-optical-sizing: inherit;
+    font-kerning: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    margin: 0px;
+    text-decoration: none;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: normal;
+    line-height: 1;
+    user-select: none;
+    border: 0px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentcolor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    vertical-align: text-top;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
