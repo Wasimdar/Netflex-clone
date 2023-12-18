@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
 .overlay {
     background: url('https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_small.jpg');
     height: 769px;
@@ -30,52 +37,49 @@
   
   .content {
     width: 100%;
-    height: auto; 
-    display: flex;
-    justify-content: center;
-    flex-direction: column; 
-    align-items: center; 
+    display: flex; /* Changed to flex */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    text-align: center; /* Center align the text */
+    margin: auto; /* Center the entire div horizontally */
+  }
+  
+  .content h1,
+  .content h2,
+  .content h3 {
+    color: #ffff;
   }
   
   .content h1 {
-    white-space: nowrap;
-    color: #ffff;
-    overflow: visible;
-    font-weight: bold;
+    white-space: normal;
     font-size: 3rem;
-    text-align: center; 
-    margin-right: 700px; 
+    margin-bottom: 10px;
+    
   }
   
-  .content h2 {
-    white-space: nowrap;
-    margin-top: 20px; 
+.content h2 {
     font-size: x-large;
-    color: #ffff;
-    text-align: center; 
+    margin-bottom: 10px;
   }
   
   .content h3 {
-    margin-top: 20px;
-    text-align: right; 
-    color: #ffff;
+    text-align: center; /* Center align the text */
   }
-  
   
   @media (max-width: 768px) {
     .content h1 {
-      font-size: 2rem; 
-      margin-left: 0; 
+      font-size: 2rem;
+      margin-left: 0;
     }
   
     .content h2 {
-      font-size: large; 
-      margin-left: 0; 
+      font-size: large;
+      margin-left: 0;
     }
   
     .content h3 {
-      margin-right: 0px; 
-      text-align: center; 
+      margin-right: 0px;
+      text-align: center;
     }
-}
+  }
   
