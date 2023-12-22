@@ -6,7 +6,7 @@ function Header() {
     <header className='header' >
         <h1 className='logo'>NETFLIX</h1>
         <div className='header-link' >
-            <select>
+            <select className='select'>
                 <option lang='en' label='English' >English</option>
                 <option lang='li'label='Hindi'  >Hindi</option>
             </select>

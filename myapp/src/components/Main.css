@@ -7,7 +7,7 @@
 
 .overlay {
     background: url('https://assets.nflxext.com/ffe/siteui/vlv3/ca6a7616-0acb-4bc5-be25-c4deef0419a7/c5af601a-6657-4531-8f82-22e629a3795e/IN-en-20231211-popsignuptwoweeks-perspective_alpha_website_small.jpg');
-    height: 769px;
+    height: 700px;
     overflow: hidden;
     position: relative;
   }
@@ -44,13 +44,13 @@
     margin: auto; /* Center the entire div horizontally */
   }
   
-  .content h1,
+  .Head-text,
   .content h2,
   .content h3 {
     color: #ffff;
   }
   
-  .content h1 {
+  .Head-text {
     white-space: normal;
     font-size: 3rem;
     margin-bottom: 10px;

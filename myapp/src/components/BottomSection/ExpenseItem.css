@@ -1,0 +1,47 @@
+.expense-item {
+    background: rgb(114, 114, 114);
+    width: 100%; 
+    max-width: 1000px; 
+    height: 100px;
+    color: #fff;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 10px; 
+    cursor: pointer;
+
+}
+.toggle {
+    position: relative;
+    width: 60px;
+    
+    height: 30px;
+    background: rgb(114, 114, 114);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.toggle input {
+    display: none;
+}
+.toggle input:checked + .handle {
+    transform: translateX(100%);
+}
+
+.Head-texts {
+    color: #fff;
+}
+
+.ref {
+    height: 1px;
+}
+p{
+    color: #ffff;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .expense-item {
+        margin-left: 0; /* Adjust margin for smaller screens */
+    }
+}
