@@ -5,7 +5,7 @@ function ExpenseItem(props) {
     const [isToggle, setToggle] = useState(false);
 
     const toggleHandler = () => {
-        setToggle(true);
+        setToggle(!isToggle);
     }
     return (
 
@@ -16,9 +16,12 @@ function ExpenseItem(props) {
             </div>
              <hr className='ref'></hr>
             {isToggle && <div className='expense-item'>
-                <p>{props.description}</p>
+                <p className='para'>{props.description}</p>
+                
             </div>}
-
+            
+            <hr className='ref2'></hr>
+        
         </div>
 
 
